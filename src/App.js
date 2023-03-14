@@ -13,7 +13,7 @@ function App() {
 
   function HandleCurrentLink() {
     SetCurrentlink(link);
-    Setlink("");
+
   }
 
   return (
@@ -25,7 +25,7 @@ function App() {
         </div>
         <div className="d-flex p-3 ">
           <input type="text"
-            class="form-control mx-2" name="" id="" aria-describedby="helpId" placeholder="Tempel Url disini" value={link}
+            class="form-control mx-2" name="" id="" aria-describedby="helpId" placeholder="Tempel Url disini"
             onChange={ChangeUrl}
           />
           <a class="btn " href="#" role="button" onClick={HandleCurrentLink}>Download</a>
